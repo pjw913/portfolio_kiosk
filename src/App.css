@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body{ font-family:'Orbitron'; }
+img{ display: block; }
+ul{ list-style: none; }
+.first-floor{
+  width: 100%; height: 100vh; background: #333333; color: #fff;
+}
+.first-floor > .first-floor-header{
+  width: 100%; height: 160px; display: flex; align-items: center; justify-content: space-between; 
+}
+.first-floor > .first-floor-header > h1{ font-size: 108px; margin-left: 50px; }
+.first-floor > .first-floor-header > .floorBtn{ width: 122px; height: 53px; margin-right: 50px; display: flex; gap: 30px; }
+.first-floor > .first-floor-header > .floorBtn > button{ width: 46px; height: 100%; background: transparent; border: 0px none; cursor: pointer; }
+.first-floor > .first-floor-header > .floorBtn > button:nth-child(2){ rotate: 180deg; }
+.first-floor > .first-floor-components{ 
+  width: 700px; height: 680px; margin: 40px auto; position: relative;
+}
+.first-floor > .first-floor-components > div{ background: #fff; border: 1px solid #333; display: flex;}
+.first-floor > .first-floor-components > div img{
+  width: 48px; height: 48px; margin: auto; 
+}
+.first-floor > .first-floor-components > .restroom{
+  width: 80px; height: 120px; position: absolute; left: 0; top: 0; 
+}
+.first-floor > .first-floor-components > .derma{
+  width: 150px; height: 150px; position: absolute; left: 100px; top: 0;
+}
+.first-floor > .first-floor-components > .kids{
+  width: 150px; height: 150px; position: absolute; left: 250px; top: 0;
+}
+.first-floor > .first-floor-components > .emergency{
+  width: 300px; height: 300px; position: absolute; left: 400px; top: 0;
+}
+.first-floor > .first-floor-components > .elevator{
+  width: 80px; height: 200px; position: absolute; left: 0; top: 150px;
+}
+.first-floor > .first-floor-components > .escalator{
+  width: 180px; height: 80px; position: absolute; left: 219px; top: 220px;
+}
+.first-floor > .first-floor-components > .info{
+  width: 80px; height: 200px; position: absolute; left: 0; top: 400px;
+}
+.first-floor > .first-floor-components > .bone_surgery1{
+  width: 100px; height: 180px; position: absolute; left: 200px; top: 370px;
+}
+.first-floor > .first-floor-components > .bone_surgery2{
+  width: 100px; height: 130px; position: absolute; left: 350px; top: 370px;
+}
+.first-floor > .first-floor-components > .pharmacy{
+  width: 150px; height: 150px; position: absolute; right: 0; top: 370px;
+}
+.first-floor > .first-floor-components > .entrance{
+  width: 200px; height: 80px; position: absolute; left: 0; bottom: 0;
+}
+.first-floor > .first-floor-components > .injection{
+  width: 150px; height: 120px; position: absolute; left: 400px; bottom: 0;
+}
+.first-floor > .first-floor-components > .blood{
+  width: 150px; height: 120px; position: absolute; right: 0; bottom: 0;
+}
+.first-floor > .first-list{
+  display: flex; flex-flow: column wrap; font-size: 14px; position: absolute; left: 50px; bottom: 50px;
+  width: 180px; height: 600px; color: #fff; justify-content: center;
+  border-radius: 20px;
+}
+.first-floor > .first-list > li{ display: flex; flex-flow: row wrap; align-items: center; gap: 8px; font-weight: bold; cursor: pointer; }
+.first-floor > .first-list > li img{ width: 24px; height: 24px; }
+
+.basement-floor{
+  width: 100%; height: 100vh; background: #333333; color: #fff;
+}
+.basement-floor > .basement-floor-header{
+  width: 100%; height: 160px; display: flex; align-items: center; justify-content: space-between; 
+}
+.basement-floor > .basement-floor-header > h1{ font-size: 108px; margin-left: 50px; }
+.basement-floor > .basement-floor-header > .floorBtn{ width: 122px; height: 53px; margin-right: 50px; display: flex; gap: 30px; }
+.basement-floor > .basement-floor-header > .floorBtn > button{ width: 46px; height: 100%; background: transparent; border: 0px none; cursor: pointer; }
+.basement-floor > .basement-floor-header > .floorBtn > button:nth-child(2){ rotate: 180deg; }
+.basement-floor > .basement-floor-components{ 
+  width: 700px; height: 700px; margin: 40px auto; position: relative;
+}
+.basement-floor > .basement-floor-components > div{ background: #fff; border: 1px solid #333; display: flex; }
+.basement-floor > .basement-floor-components > div img{
+  width: 48px; height: 48px; margin: auto; 
+}
+.basement-floor > .basement-floor-components > .restroom{
+  width: 80px; height: 120px; position: absolute; left: 0; top: 0; 
+}
+.basement-floor > .basement-floor-components > .mcdonald{
+  width: 100px; height: 150px; position: absolute; left: 200px; top: 0;
+}
+.basement-floor > .basement-floor-components > .koreanfood{
+  width: 100px; height: 150px; position: absolute; left: 300px; top: 0;
+}
+.basement-floor > .basement-floor-components > .starbucks{
+  width: 100px; height: 150px; position: absolute; left: 400px; top: 0;
+}
+.basement-floor > .basement-floor-components > .ramen{
+  width: 100px; height: 150px; position: absolute; left: 500px; top: 0;
+}
+.basement-floor > .basement-floor-components > .bread{
+  width: 100px; height: 150px; position: absolute; right: 0; top: 0;
+}
+.basement-floor > .basement-floor-components > .elevator{
+  width: 80px; height: 200px; position: absolute; left: 0; top: 150px;
+}
+.basement-floor > .basement-floor-components > .escalator{
+  width: 180px; height: 80px; position: absolute; left: 220px; top: 220px;
+}
+.basement-floor > .basement-floor-components > .store{
+  width: 200px; height: 100px; position: absolute; right: 0; top: 220px;
+}
+.basement-floor > .basement-floor-components > .ct{
+  width: 150px; height: 300px; position: absolute; left: 0; bottom: 0;
+}
+.basement-floor > .basement-floor-components > .xray{
+  width: 150px; height: 300px; position: absolute; left: 150px; bottom: 0;
+}
+.basement-floor > .basement-floor-components > .mri{
+  width: 100px; height: 200px; position: absolute; left: 300px; bottom: 100px;
+}
+.basement-floor > .basement-floor-components > .radiology{
+  width: 100px; height: 100px; position: absolute; left: 300px; bottom: 0;
+}
+.basement-floor > .basement-floor-components > .radio_cancer{
+  width: 200px; height: 150px; position: absolute; right: 0; bottom: 150px;
+}
+.basement-floor > .basement-floor-components > .nuclear_atom{
+  width: 200px; height: 150px; position: absolute; right: 0; bottom: 0;
+}
+.basement-floor > .basement-list{
+  display: flex; flex-flow: column wrap; font-size: 14px; position: absolute; left: 50px; bottom: 50px;
+  width: 180px; height: 720px; color: #fff; justify-content: center;
+  border-radius: 20px;
+}
+.basement-floor > .basement-list > li{ display: flex; flex-flow: row wrap; align-items: center; gap: 8px; font-weight: bold; cursor: pointer; }
+.basement-floor > .basement-list > li img{ width: 24px; height: 24px; }
+
+.second-floor{
+  width: 100%; height: 100vh; background: #333333; color: #fff;
+}
+.second-floor > .second-floor-header{
+  width: 100%; height: 160px; display: flex; align-items: center; justify-content: space-between; 
+}
+.second-floor > .second-floor-header > h1{ font-size: 108px; margin-left: 50px; }
+.second-floor > .second-floor-header > .floorBtn{ width: 122px; height: 53px; margin-right: 50px; display: flex; gap: 30px; }
+.second-floor > .second-floor-header > .floorBtn > button{ width: 46px; height: 100%; background: transparent; border: 0px none; cursor: pointer; }
+.second-floor > .second-floor-header > .floorBtn > button:nth-child(2){ rotate: 180deg; }
+.second-floor > .second-floor-components{ 
+  width: 700px; height: 680px; margin: 40px auto; position: relative; margin: auto; 
+}
+.second-floor > .second-floor-components > div{ background: #fff; border: 1px solid #333; display: flex; }
+.second-floor > .second-floor-components > div img{
+  width: 48px; height: 48px; margin: auto;
+}
+.second-floor > .second-floor-components > .restroom{
+  width: 80px; height: 120px; position: absolute; left: 0; top: 0; 
+}
+.second-floor > .second-floor-components > .brain{
+  width: 400px; height: 150px; position: absolute; left: 100px; top: 0;
+}
+.second-floor > .second-floor-components > .eye{
+  width: 197px; height: 100px; position: absolute; right: 0; top: 0;
+}
+.second-floor > .second-floor-components > .elevator{
+  width: 80px; height: 200px; position: absolute; left: 0; top: 150px;
+}
+.second-floor > .second-floor-components > .escalator{
+  width: 180px; height: 80px; position: absolute; left: 220px; top: 220px;
+}
+.second-floor > .second-floor-components > .heart{
+  width: 200px; height: 300px; position: absolute; right: 0; top: 250px;
+}
+.second-floor > .second-floor-components > .tooth{
+  width: 250px; height: 300px; position: absolute; left: 0; bottom: 0;
+}
+.second-floor > .second-floor-components > .clinic{
+  width: 400px; height: 150px; position: absolute; right: 0; bottom: 0;
+}
+.second-floor > .second-list{
+  display: flex; flex-flow: column wrap; font-size: 14px; position: absolute; left: 50px; bottom: 50px;
+  width: 180px; height: 600px; color: #fff; justify-content: center;
+  border-radius: 20px;
+}
+.second-floor > .second-list > li{  display: flex; flex-flow: row wrap; align-items: center; gap: 8px; font-weight: bold; cursor: pointer; }
+.second-floor > .second-list > li img{ width: 24px; height: 24px; }
+
+.third-floor{
+  width: 100%; height: 100vh; background: #333333; color: #fff;
+}
+.third-floor > .third-floor-header{
+  width: 100%; height: 160px; display: flex; align-items: center; justify-content: space-between; 
+}
+.third-floor > .third-floor-header > h1{ font-size: 108px; margin-left: 50px; }
+.third-floor > .third-floor-header > .floorBtn{ width: 122px; height: 53px; margin-right: 50px; display: flex; gap: 30px; }
+.third-floor > .third-floor-header > .floorBtn > button{ width: 46px; height: 100%; background: transparent; border: 0px none; cursor: pointer; }
+.third-floor > .third-floor-header > .floorBtn > .downfloor{ rotate: 180deg; }
+.third-floor > .third-floor-components{ 
+  width: 700px; height: 680px; margin: 40px auto; position: relative; 
+}
+.third-floor > .third-floor-components > div{ background: #fff; border: 1px solid #333; display: flex; }
+.third-floor > .third-floor-components > div img{
+  width: 48px; height: 48px; margin: auto; 
+}
+.third-floor > .third-floor-components > .restroom{
+  width: 80px; height: 120px; position: absolute; left: 0; top: 0; 
+}
+.third-floor > .third-floor-components > .robot_surgery{
+  width: 150px; height: 100px; position: absolute; left: 150px; top: 0;
+}
+.third-floor > .third-floor-components > .thyroid{
+  width: 100px; height: 100px; position: absolute; left: 300px; top: 0;
+}
+.third-floor > .third-floor-components > .breast{
+  width: 100px; height: 100px; position: absolute; left: 400px; top: 0;
+}
+.third-floor > .third-floor-components > .pregnant{
+  width: 200px; height: 100px; position: absolute; right: 0; top: 0;
+}
+.third-floor > .third-floor-components > .elevator{
+  width: 80px; height: 200px; position: absolute; left: 0; top: 150px;
+}
+.third-floor > .third-floor-components > .escalator{
+  width: 180px; height: 80px; position: absolute; left: 220px; top: 220px;
+}
+.third-floor > .third-floor-components > .pain{
+  width: 100px; height: 100px; position: absolute; right: 0; top: 180px;
+}
+.third-floor > .third-floor-components > .spine{
+  width: 100px; height: 100px; position: absolute; right: 0; top: 280px; 
+}
+.third-floor > .third-floor-components > .surgery{
+  width: 300px; height: 200px; position: absolute; left: 0; bottom: 0;
+}
+.third-floor > .third-floor-components > .anesthesia{
+  width: 100px; height: 200px; position: absolute; left: 300px; bottom: 0;
+}
+.third-floor > .third-floor-components > .cancerous_cell{
+  width: 100px; height: 150px; position: absolute; left: 400px; bottom: 150px;
+}
+.third-floor > .third-floor-components > .stomach{
+  width: 100px; height: 150px; position: absolute; left: 400px; bottom: 0;
+}
+.third-floor > .third-floor-components > .scope{
+  width: 100px; height: 300px; position: absolute; right: 0; bottom: 0;
+}
+.third-floor > .third-list{
+  display: flex; flex-flow: column wrap; font-size: 14px; position: absolute; left: 50px; bottom: 50px;
+  width: 180px; height: 680px; color: #fff; justify-content: center;
+  border-radius: 20px;
+}
+.third-floor > .third-list > li{  display: flex; flex-flow: row wrap; align-items: center; gap: 8px; font-weight: bold; cursor: pointer; }
+.third-floor > .third-list > li img{ width: 24px; height: 24px; }
+
+.basement-floor-components > div.hovered {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+.first-floor-components > div.hovered {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+.second-floor-components > div.hovered {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+.third-floor-components > div.hovered {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
